@@ -1,5 +1,5 @@
 
-/*formatting elements*/
+/*header*/
 .header, .hero-section, .footer{
     background-color: #1F2937;
 }
@@ -16,6 +16,11 @@
     justify-content: space-between;
     flex: 1;
 
+}
+
+.logo{
+    font-size: 24px;
+    color:#F9FAF8;
 }
 
 .logo > img{
@@ -38,20 +43,31 @@
     gap:10px;
 }
 
-.hero-section{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding:32px 100px;
+/*Hero*/
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.hero-column-image{
+.nav-links, .hero-text{
+    font-size: 18px;
+    color:#E5E7EB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-section{
     display: flex;
-    flex:0 1 auto;
+    justify-content: center;
+    align-items: center;
+    padding:32px 100px;
+    gap:5%;
 }
 
 .hero-column-image > img{
-    width:200px;
+    width: 400px;
     border-radius: 20px;
 }
 
@@ -59,4 +75,16 @@
     display: flex;
     flex-wrap: wrap;
     width: 500px;
+}
+
+.btn-sign-up, .btn-cta{
+    background-color: #3882F6;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 16px;
+    font-size: 16px;
 }
