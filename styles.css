@@ -1,6 +1,7 @@
 /*Global*/
 *{
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -191,4 +192,11 @@
 .btn-cta{
     border-color: #F9FAF8;
     border-style:outset;
+}
+
+/* footer */
+.footer {
+    padding: 30px;
+    color: #F9FAF8;
+    text-align: center;
 }
