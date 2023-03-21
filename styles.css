@@ -105,7 +105,20 @@
     text-align: center;
 }
 
-.box > img{
-    width: 350px;
+.content-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    text-align: center;
+}
+
+.box > img {
+    width: inherit;
     height: 300px;
 }
