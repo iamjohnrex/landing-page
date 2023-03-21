@@ -122,3 +122,32 @@
     width: inherit;
     height: 300px;
 }
+
+/*Quote section*/
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.section-two > p:nth-child(1) {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: justify;
+}
+
+.section-two > p:nth-child(2) {
+    color: #1F2937;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.section-two > p{
+    width: 70%;
+}
