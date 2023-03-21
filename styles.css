@@ -98,3 +98,8 @@
     padding:20px;
     text-align: center;
 }
+
+.box > img{
+    width: 350px;
+    height: 300px;
+}
